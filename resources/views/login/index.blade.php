@@ -12,7 +12,7 @@
     <form class="" action="{{route('site.login.entrar')}}" method="post">
       {{csrf_field()}}
       <div class="input-field">
-        <input type="text" name="email">
+        <input type="text" name="email" autocomplete="off">
         <label>Email</label>
       </div>
       <div class="input-field">
